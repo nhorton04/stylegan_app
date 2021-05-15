@@ -17,7 +17,6 @@ from encode_images import encode
 # import config
 import dnnlib
 import dnnlib.tflib as tflib
-import pickle
 import PIL.Image
 import cv2
 
