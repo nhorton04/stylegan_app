@@ -20,8 +20,6 @@ import dnnlib.tflib as tflib
 import PIL.Image
 import cv2
 
-import dnnlib
-import dnnlib.tflib as tflib
 import pickle
 import PIL.Image
 # sys.path.append('tl_gan')
