@@ -25,8 +25,8 @@ import PIL.Image
 # sys.path.append('tl_gan')
 # sys.path.append('pg_gan')
 # import feature_axis
-# import tfutil
-# import tfutil_cpu
+import tfutil
+import tfutil_cpu
 
 # This should not be hashed by Streamlit when using st.cache.
 TL_GAN_HASH_FUNCS = {
@@ -57,7 +57,7 @@ def main():
 
         images = [img1, img2]
 
-        aligned = align(img1)
+        aligned = align2(img1)
 
         st.image(aligned)
 
